@@ -1,0 +1,28 @@
+{
+  "name": "ngsidateexpires",
+  "version": "1.0.0",
+  "description": "Set the expiration date of all entity of a type if none is set",
+  "main": "index.js",
+  "scripts": {
+    "test-brk": "mocha --inspect-brk=0.0.0.0 --recursive",
+    "test": "mocha --recursive",
+    "onetest": "mocha --recursive $TEST",
+    "onetest-brk": "mocha --inspect-brk=0.0.0.0 --recursive $TEST",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "NGSIv2",
+    "FIWARE"
+  ],
+  "author": "Marc Despland (Orange)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "yargs": "^16.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.1"
+  }
+}
